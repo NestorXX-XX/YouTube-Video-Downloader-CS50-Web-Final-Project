@@ -4,9 +4,17 @@ Welcome to the repository for my CS50 Final Project: a web-based YouTube Video D
 
 ---
 
+## ⚠️ **Important Disclaimer**
+
+This project is intended **for academic purposes only**. The application should not be used in violation of YouTube’s Terms of Service. Downloading YouTube videos without permission may breach YouTube’s copyright policies and terms of use. Please ensure that you have the right to download any content before using this tool.
+
+---
+
 ## **Video Preview**
 
 [![YouTube Video Downloader Preview](https://img.youtube.com/vi/gVoWQ8rKb28/0.jpg)](https://www.youtube.com/watch?v=gVoWQ8rKb28)
+
+---
 
 ## **Key Features**
 
