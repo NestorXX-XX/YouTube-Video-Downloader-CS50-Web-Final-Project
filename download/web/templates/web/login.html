@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Download</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'web/styles_login.css' %}" rel="stylesheet">
+        <style>
+            :root {
+                --background-image-url: url("{{ newImageUrl }}");
+            }
+        </style>
+        <script src="{% static 'web/index.js'%}"></script>
+
+    </head>
+    <body>
+        
+        <form action="{% url 'login' %}" method="post" id="login-form" class="login-form" autocomplete="off" role="main">
+            {% csrf_token %}
+            
+            <h1 class="a11y-hidden">Login Form</h1>
+            <div>
+                <label class="label-email">
+                    <input type="text" class="text" name="username" placeholder="Username" tabindex="1" required autocomplete="username" />
+                    <span class="required">Username</span>
+                </label>
+            </div>
+            
+            <div>
+                <label class="label-password">
+                    <input type="password" class="text" name="password" placeholder="Password" tabindex="2" required autocomplete="current-password" />
+                    <span class="required">Password</span>
+                </label>
+            </div>
+            <div>
+                <a style="color:red"> {{message}} </a>
+            </div>
+        
+            <input type="submit" value="Log In" style="font-family: Lato, sans-serif"/>
+            
+            <figure aria-hidden="true">
+                <div class="person-body"></div>
+                <div class="neck skin"></div>
+                <div class="head skin">
+                    <div class="eyes"></div>
+                    <div class="mouth"></div>
+                </div>
+                <div class="hair"></div>
+                <div class="ears"></div>
+                <div class="shirt-1"></div>
+                <div class="shirt-2"></div>
+            </figure>
+        </form>
+        
+    </body>
+</html>
