@@ -40,10 +40,10 @@ A “Contact Us” form allows users to submit inquiries or support requests dir
 
 ## **Technologies Used**
 
-- **Backend**: Flask for handling requests and `pytube` for managing video downloads and conversions.
-- **Frontend**: HTML, CSS (Bootstrap for responsive design), and JavaScript for dynamic behavior and real-time updates.
-- **Database**: SQLite (or another relational database) for managing user accounts and download history.
-- **User Authentication**: Flask-Login for secure user management and session handling.
+- **Backend**: Django for handling requests and `pytube` for managing video downloads and conversions.
+- **Frontend**: HTML, CSS, and JavaScript for dynamic behavior and real-time updates.
+- **Database**: SQLite in Django (or another relational database) for managing user accounts and download history.
+- **User Authentication**: Django-Login for secure user management and session handling.
 - **API Integration**: YouTube video download functionality powered by the `pytube` library.
 
 ---
