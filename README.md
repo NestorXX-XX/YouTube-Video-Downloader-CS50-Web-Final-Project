@@ -10,18 +10,9 @@ This project is intended **for academic purposes only**. The application should 
 
 ---
 
-## **Video Preview**
+## Video Preview
 
-<div style="padding:62.5% 0 0 0;position:relative;">
-  <iframe 
-    src="https://player.vimeo.com/video/1029930825?badge=0&autopause=0&player_id=0&app_id=58479" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    title="Preview | Vimeo Video Downloader Web Application">
-  </iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+[![Preview](https://vumbnail.com/1029930825.jpg)](https://vimeo.com/1029930825)
 
 
 ---
